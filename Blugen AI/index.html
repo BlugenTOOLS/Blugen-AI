@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Blugen AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Blugen AI</h1>
+
+    <input id="question" placeholder="Ask your question...">
+    <button onclick="ask()">Ask</button>
+
+    <p id="loading">⏳ Thinking...</p>
+
+    <div class="card">
+      <h3>Answer</h3>
+      <p id="answer"></p>
+    </div>
+
+    <div class="card">
+      <h3>Explanation</h3>
+      <p id="explain"></p>
+    </div>
+
+    <div class="card">
+      <h3>Check</h3>
+      <p id="check"></p>
+    </div>
+
+    <div class="card">
+      <h3>Suggestions</h3>
+      <div id="suggestions"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
